@@ -1,0 +1,15 @@
+    {
+      "splitTerminals": [
+        { "name": "front", "commands": ["cd ./front/", "npm run dev"] }
+      ]
+    },
+    {
+      "splitTerminals": [
+        { "name": "angular_commands", "commands": ["cd ./front/"] }
+      ]
+    },
+    {
+      "splitTerminals": [
+        { "name": "back_commands", "commands": ["cd ./back/"] }
+      ]
+    }
